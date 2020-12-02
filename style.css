@@ -1,0 +1,79 @@
+:root {
+    --primary-color: rgb(8, 201, 8);
+}
+
+body {
+    width: 50%;
+    margin: 0 auto;
+    background-color: black;
+
+}
+.container {
+    text-align: center;
+    
+}
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+#inputfield {
+    width: 300px;
+    /* height: ; */
+    outline: none;
+    border: 0px;
+    vertical-align: middle;
+    padding-left: 10px;
+    background-color: black;
+    color: white;
+    
+}
+.styling {
+    color: rgb(21, 190, 21);
+    font-weight: bold;
+    width: 50%;
+}
+#inputfield:focus {
+    border-bottom: 1px solid white;
+}
+
+#addTodo {
+    margin-left: 10px;
+
+    margin-top: 7px;
+    border-radius: 5px;
+    background-color: rgb(57, 184, 57);
+    border: 0;
+   
+
+    
+}
+.footer {
+    text-align: center;
+    margin-top:65%;
+}
+#addTodo:hover {
+   background-color: grey;
+}
+
+@media (max-width: 700px){
+    #addTodo {
+        display: inline;
+        margin: 10px;
+        border-bottom-width: 10px;
+        
+        
+
+    }
+}
+.todo {
+    margin-top: 25px;
+}
+.paragraph-styling {
+    margin: 0px;
+    cursor:pointer;
+    font-size: 20px;
+
+}
+.footerstyling {
+    color: var(--primary-color);
+}
